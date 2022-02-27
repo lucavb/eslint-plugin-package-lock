@@ -4,7 +4,7 @@ An eslint plugin that will let you lint the package-lock.json
 
 ## Rules
 
--   `lock-file-version` Allows you to require a specific lock file version. The current default is version `3`, but you can request a different version by giving object with the key `version`. You may want to apply this rule to make sure that you maintain compatibility with your clients and to avoid version `2` which has a rather large footprint due to its attempt to retain backwards compatibility.
+-   `lock-file-version` Allows you to require a specific lock file version. The current default is version `3`, but you can request a different version by giving an object with the key `version`. You may want to apply this rule to make sure that you maintain compatibility with your clients and to avoid version `2` which has a rather large footprint due to its attempt to retain backwards compatibility.
 
 ## Configurations
 
